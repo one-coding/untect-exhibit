@@ -25,6 +25,15 @@
 .playbar__menubar-icon {
   margin-right: 10px;
 }
+#open__art-menu {
+  border-style: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+}
+.playbar__menubar-icon:hover {
+  color: #ed6f63;
+  cursor: pointer;
+}
 
 .playbar__menubar-text {
   opacity: 0.5;
