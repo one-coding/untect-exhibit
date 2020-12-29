@@ -4,4 +4,5 @@
   display: flex;
   margin-left: 200px;
   position: relative;
+  transform: translateY(0px) translateX(-40px);
 }

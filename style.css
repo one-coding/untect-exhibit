@@ -6,6 +6,9 @@
 
 /*screen*/
 @import "css/screen/index.css";
+@import "css/screen/main-exhibit2.css";
+@import "css/screen/main-exhibit3.css";
+@import "css/screen/main-exhibit4.css";
 
 /*setting*/
 @import "css/component/reset.css";
@@ -13,6 +16,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #2e363e;
+  overflow: hidden;
 }
 
 .main-screen {

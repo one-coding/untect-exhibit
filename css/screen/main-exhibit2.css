@@ -1,0 +1,11 @@
+.main-screen__img2 {
+  width: 1300px;
+  height: 100%;
+  display: flex;
+  margin-left: 200px;
+  position: relative;
+  transform: translateY(-80px) translateX(-40px);
+}
+#main-img2 {
+  width: 590px;
+}
