@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>최은정 미술 전시회</title>
+    <script defer src="js/modal.js"></script>
 
 </head>
 
@@ -41,12 +42,12 @@
 <main class="main-screen">
     <div>
         <img class ="main-screen__img" src="완성/HDK_9066_3.jpg" /> 
-        <button class="img__2x-icon"><i class="fas fa-search"></i></button>
-        <div class="modal">
+        <button id="open"><i class="fas fa-search"></i></button>
+        <div class="modal hidden">
             <div class="modal__overlay"></div>
             <div class="modal__content">
                 <img src="완성/HDK_9084_2.jpg" />
-                <button>x</button>
+                <button class="close-button"><i class="fas fa-times"></i></button>
             </div>
         </div>
         </div>  
