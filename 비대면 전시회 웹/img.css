@@ -1,0 +1,6 @@
+.main-screen__img {
+  width: 1280px;
+  height: 100%;
+  display: flex;
+  margin-left: 200px;
+}
