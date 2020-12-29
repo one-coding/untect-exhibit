@@ -1,0 +1,37 @@
+.main-screen {
+  display: flex;
+}
+
+.main-screen__info {
+  width: 100px;
+  color: #2d2926;
+}
+
+.main-screen__button {
+  position: absolute;
+  bottom: 200px;
+  right: 100px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  padding: 15px 150px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #ed6f63;
+  font-weight: 600;
+  background-color: rgb(253, 253, 253);
+}
+
+.main-screen__button:hover {
+  cursor: pointer;
+  animation: ButtonHover 0.4s ease-in-out forwards;
+}
+
+@keyframes ButtonHover {
+  to {
+    background-color: black;
+    color: white;
+    opacity: 0.6;
+  }
+  from {
+    transform: none;
+  }
+}

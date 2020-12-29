@@ -10,10 +10,9 @@
 </head>
 
 <body>
-    <main>
         <div class="">
             <div class="nav-bar">
-                <header class="nav-bar__header">최은정 미술 전시회</header>
+               <header class="nav-bar__header"><a href="index.html">최은정 미술 전시회</a></header>
                 <hr class="divider">
                 <pre class="nav-bar__text">
 최은정
@@ -23,10 +22,10 @@
 소개합니다</pre>
 
                 <div class="nav-bar__list">
-                    <a href="#">
+                    <a href="about-exhibit.html">
                         <li class="nav_bar__list-text">전시소개</li>
                     </a>
-                    <a href="#">
+                    <a href="main-exhibit.html">
                         <li class="nav_bar__list-text">전시장</li>
                     </a>
                     <a href="#">
@@ -41,15 +40,30 @@
             <div class="main-screen">
                 <img class ="main-screen__img" src="완성/HDK_9066_3.jpg" />
                 <div class="main-screen__info">
-                    <button class="main-screen__button">
-                        <a href="#">
-                            <span> 전시 입장 </span>
-                        </a>
-                    </button>
                 </div>
+                    <button type="button" onclick="location.href='about-exhibit.html '" class="main-screen__button">
+                        전시 입장                        
+                    </button>
+                
+                
             </div>
         </div>
-    </main>
+ <main class="main-screen">
+</main>
+<div class="playbar">
+    <div></div>
+    <div class = "playbar__icon-set">
+        <a href="#" class="playbar__icon"><i class="fas fa-step-backward"></i></a>
+        <a href="#" class="playbar__icon"><i class="fas fa-chevron-left"></i></a href="#">
+        <a href="#" class="playbar__icon"><i class="fas fa-chevron-right"></i></a href="#">
+        <a href="#" class="playbar__icon"><i class="fas fa-step-forward"></i></a href="#">
+    </div>
+    <div class="playbar__menubar">
+        <span class="playbar__menubar-text">전체작품</span>
+        <span class="playbar__menubar-icon"><i class="fas fa-bars fa-lg"></i></span>
+    </div>
+</div>
+
 
 </body>
 

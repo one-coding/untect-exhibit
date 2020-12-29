@@ -1,0 +1,43 @@
+.playbar {
+  bottom: 0;
+  width: 100vw;
+  height: 75px;
+  position: fixed;
+  z-index: 1;
+  background-color: #2d2926;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.playbar i {
+  padding: 0px 10px;
+  opacity: 0.5;
+}
+
+.playbar__icon {
+  padding: 0px 7px;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.playbar__menubar-icon {
+  margin-right: 10px;
+}
+
+.playbar__menubar-text {
+  opacity: 0.5;
+  font-size: 15px;
+}
+
+.playbar__info-text {
+  opacity: 0.5;
+  font-size: 15px;
+  margin-left: 25px;
+}
+
+.playbar__icon:hover {
+  color: wheat;
+  opacity: 1;
+}
