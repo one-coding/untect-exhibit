@@ -1,0 +1,10 @@
+/* component */
+@import "css/component/img.css";
+@import "css/component/nav-bar.css";
+/*setting*/
+@import "css/component/reset.css";
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #2e363e;
+}
